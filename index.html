@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    .navbar {
+      z-index: 1;
+    }
+
+    .title-s {
+      font-weight: bold;
+    }
+
+    .section4 {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.362), rgba(68, 65, 65, 0.237)), url("/assets/pics/sec4.jpg");
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      z-index: 212;
+    }
+
+    .section5 .card {
+      height: 450px;
+      overflow: hidden;
+
+    }
+
+    .section5 .card img {
+      height: 300px;
+      transition: all 1s;
+
+    }
+
+    .section5 .card img:hover {
+      transform: scale(1.1);
+
+
+    }
+  </style>
+  <link rel="stylesheet" href="/assets/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="bg-light navbar navbar-expand-lg bg-body-tertiary py-3 position-sticky top-0">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <h2>Varun's Portfolio</h2>
+      </a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#aaa">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="aaa">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto text-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#a1">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#a2">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#a3">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#a4">Work</a>
+          </li>
+          <li class="nav-item dropdown" data-bs-toggle="dropdown">
+            <a class="nav-link" href="">Dropdown</a>
+            <ul class="dropdown-menu">
+              <li class="dropdown-item">dropdown</li>
+              <li class="dropdown-item">dropdown</li>
+              <li class="dropdown-item">dropdown</li>
+              <li class="dropdown-item">dropdown</li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="">Contact</a>
+          </li>
+        </ul>
+        <div class="text-sm-center text-lg-end text-mg-center text-center">
+          <button class="btn btn-danger rounded-pill">Download resume</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="first-section container">
+    <div class="row my-5">
+      <div class="left col-12 col-lg-6 col-md-12 col-sm-12 display-3 py-5">
+        Hi , My Name Is <span class="text-danger">Varun Rawat</span>
+        <div>and i am a Passionate</div>
+
+        <span id="element" class="text-danger"></span>
+      </div>
+
+      <div class="right col-12 col-lg-6 col-md-12 col-sm-12 py-0 text-center">
+        <img src="/assets/pics/cover.png" class="img-fluid" alt="" />
+      </div>
+    </div>
+  </section>
+
+  <div class="section2">
+    <div class="container shadow p-5 bg-white rounded">
+      <div class="row">
+        <div class="left1 col-12 col-lg-6 col-md-12 col-sm-12">
+          <div class="row">
+            <div class="col-6">
+              <img src="/assets/pics/my.jpg" class="img-fluid" alt="" />
+            </div>
+
+            <div class="col-6">
+              <div class="about-info pt-5">
+                <p><span class="title-s">Name: </span> <span>Varun Rawat</span></p>
+                <p>
+                  <span class="title-s">Profile: </span>
+                  <span>full stack developer</span>
+                </p>
+                <p>
+                  <span class="title-s">Email: </span>
+                  <span>vr854369@gmail.com</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="skill-mf">
+              <p class="title-s mt-5">Skill</p>
+              <span>HTML 85%</span>
+              <div class="progress mb-1">
+                <div class="progress-bar bg-danger-subtle" style="width: 85%"></div>
+              </div>
+              <span>CSS3 75%</span>
+              <div class="progress mb-1">
+                <div class="progress-bar bg-danger-subtle" style="width: 75%"></div>
+              </div>
+              <span>PHP 50%</span>
+              <div class="progress mb-1">
+                <div class="progress-bar bg-danger-subtle" style="width: 50%"></div>
+              </div>
+              <span>JAVASCRIPT 90%</span>
+              <div class="progress mb-1">
+                <div class="progress-bar bg-danger-subtle" style="width: 90%"></div>
+              </div>
+              <span>bootstrap 90%</span>
+              <div class="progress mb-1">
+                <div class="progress-bar bg-danger-subtle" style="width: 90%"></div>
+              </div>
+              <span>WordPress 90%</span>
+              <div class="progress mb-1">
+                <div class="progress-bar bg-danger-subtle" style="width: 90%"></div>
+              </div>
+            </div>
+            <div>
+              <img src="/assets/pics/aboutme1 (2).png" class="img-fluid" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="right1 col-12 col-lg-6 col-md-12 col-sm-12">
+          <h1 class="border-bottom-0">About me</h1>
+          <p>
+            "Hello, I'm <strong>Varun Rawat</strong>, a dedicated and enthusiastic person toward my goal.
+            I pursued my 10th grade education at Ramakrishna Public School.And my 12 th class from a government
+            school.Also pursuing my BSCG from IGNOU.As
+            a young and aspiring professional, I am currently exploring
+            opportunities in the job market to kick-start my career as a
+            <strong>full stack developer</strong>.
+          </p>
+
+          <p>
+            With a strong foundation in web development, I possess proficiency
+            in
+            <strong>HTML, CSS, JavaScript, PHP, Bootstrap, WordPress, and
+              MySQL</strong>. My passion lies in creating dynamic and user-friendly websites
+            that deliver exceptional user experiences. During my academic
+            journey, I actively participated in various coding projects and
+            honed my skills in designing and implementing efficient web
+            solutions.
+          </p>
+
+          <p>
+            Being a fresher, I am eager to apply my knowledge and learn from
+            experienced professionals to enhance my expertise in the field. I
+            have a curious and adaptable mindset, always striving to stay
+            up-to-date with the latest trends and advancements in web
+            development. I believe that continuous learning is the key to
+            success in this rapidly evolving industry.
+          </p>
+
+          <p>
+            Beyond my technical abilities, I am a reliable team player with
+            excellent communication skills. I enjoy collaborating with
+            like-minded individuals and contributing my ideas to create
+            innovative solutions. When I'm not coding, I love exploring new
+            technologies, reading tech blogs, and attending meetups to expand
+            my professional network.
+          </p>
+
+          <p>
+            I am excited to embark on this professional journey and make a
+            positive impact in the world of web development. If you're looking
+            for a passionate and dedicated full stack developer, I would love
+            to connect and explore potential opportunities for collaboration."
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="section3  ">
+    <h6 class="h6 text-center pt-5 m-0">lets talk about</h6>
+    <h1 class="h1 text-center pb-2">Services</h1>
+    <div class="container">
+      <div class="row pt-2">
+        <div class="col-12 col-lg-3 col-md-6 col-sm-12">
+          <div class="card  ">
+            <div class="card-body text-center" style="cursor: pointer">
+              <i class="fa-brands fa-connectdevelop text-danger fs-2 text-center"></i>
+              <h2>Front End development</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque necessitatibus illo optio voluptatibus
+                id velit, sit cupiditate, alias temporibus est incidunt placeat aperiam odit eos harum voluptas impedit
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-3 col-md-6 col-sm-12">
+          <div class="card  ">
+            <div class="card-body text-center" style="cursor: pointer">
+              <i class="fa-brands fa-connectdevelop text-danger fs-2 text-center"></i>
+              <h2>MySQL</h2>
+              <br>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim repudiandae sint quos. Amet quam maiores
+                illum ab. Ad eveniet dicta, inventore explicabo assumenda excepturi dolores facilis eligendi voluptatem,
+                est harum.
+
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-3 col-md-6 col-sm-12">
+          <div class="card  ">
+            <div class="card-body text-center" style="cursor: pointer">
+              <i class="fa-brands fa-connectdevelop text-danger fs-2 text-center"></i>
+              <h2>Backend development</h2>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente libero atque dolor voluptates,
+                ducimus sed quae et asperiores eum delectus similique dolore consectetur deleniti placeat laborum itaque
+                incidunt architecto animi.
+
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-3 col-md-6 col-sm-12">
+          <div class="card  ">
+            <div class="card-body text-center" style="cursor: pointer">
+              <i class="fa-brands fa-connectdevelop text-danger fs-2 text-center"></i>
+              <h2>Frameworks</h2>
+              <br>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci aliquam blanditiis commodi
+                perspiciatis cum harum, recusandae odio dolores illo veniam veritatis iusto, sunt sed odit cumque
+                dignissimos, deserunt optio magni!
+
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div> -->
+
+  <!-- <div class="section4">
+    <div class="container">
+      <div class="row my-5 text-center py-5 my-5 text-light">
+        <div class="col-12 col-lg-3 col-md-6 col-sm-12"><i class="fa-regular fa-clock fs-1"></i> <br>
+          <div class="fs-1">400</div><br>
+          <div>work experience</div>
+        </div>
+        <div class="col-12 col-lg-3 col-md-6 col-sm-12"><i class="fa-solid fa-book fs-1"></i> <br>
+          <div class="fs-1">400</div><br>
+          <div>Years of experience</div>
+        </div>
+        <div class="col-12 col-lg-3 col-md-6 col-sm-12"><i class="fa-solid fa-user fs-1"></i> <br>
+          <div class="fs-1">400</div><br>
+          <div>Total client</div>
+        </div>
+        <div class="col-12 col-lg-3 col-md-6 col-sm-12"><i class="fa-solid fa-ferry fs-1"></i> <br>
+          <div class="fs-1">400</div><br>
+          <div class="">award won</div>
+        </div>
+
+      </div>
+    </div>
+  </div> -->
+
+  <div class="section5">
+
+    <h6 class="h6 text-center pt-5 m-0">my projects</h6>
+    <h1 class="h1 text-center pb-2">Portfolio</h1>
+
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+          <div class="card">
+            <img src="/assets/pics/Yummy.jpg" class="card-img-top img-fluid" alt="">
+            <div class="card-body">
+              <h2 class="card-title">yummy</h2>
+              <p class="card-text">This website is made by bootstrap</p>
+              <a href="..."><button class="btn btn-danger">open this</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+          <div class="card">
+            <img src="/assets/pics/day.jpg" class="card-img-top img-fluid" alt="">
+            <div class="card-body">
+              <h2 class="card-title">Day</h2>
+              <p class="card-text">This website is made by html and css</p>
+              <a href=""><button class="btn btn-danger">open this</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+          <div class="card">
+            <img src="/assets/pics/calculator.png" class="card-img-top img-fluid " alt="">
+            <div class="card-body">
+              <h2 class="card-title">calculator</h2>
+              <p class="card-text">This is a calculator using JavaScript</p>
+              <a href=""><button class="btn btn-danger">open this</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+          <div class="card">
+            <img src="/assets/pics/fan.png" class="card-img-top  img-fluid" alt="">
+            <div class="card-body">
+              <h2 class="card-title">Fan Animation</h2>
+              <p class="card-text">This is a Fan animation using JavaScript</p>
+              <a href=""><button class="btn btn-danger">open this</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+          <div class="card">
+            <img src="/assets/pics/change2.png" class="card-img-top  img-fluid" alt="">
+            <div class="card-body">
+              <h2 class="card-title">background change</h2>
+              <p class="card-text">This is a backgrond using JavaScript</p>
+              <button class="btn btn-danger">open this</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+          <div class="card">
+            <img src="/assets/pics/br.png" class="card-img-top  img-fluid" alt="">
+            <div class="card-body">
+              <h2 class="card-title">br template</h2>
+              <p class="card-text">This is a br template with animationt</p>
+              <a href=""><button class="btn btn-danger">open this</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="section6 my-4">
+    <div class="container">
+      <div class="row py-3">
+        <div class="col-12 col-lg-6 col-md-12 col-sm-12">
+          <h2>Send Message</h2>
+          <form action="" class="text-center">
+            <div class="form-floating mb-3">
+              <input type="Name" class="form-control" placeholder="name">
+              <label>Name</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" placeholder="name@example.com">
+              <label>Email address</label>
+            </div>
+
+
+            <div class="form-floating   mb-3">
+              <input type="text" class="form-control" placeholder="subject">
+              <label>subject</label>
+            </div>
+            <div class="form-floating  mb-3">
+              <textarea class="form-control" placeholder="Message"></textarea>
+              <label>message</label>
+            </div>
+            <button type="submit" class="btn btn-danger rounded-pill px-4">Submit</button>
+
+
+
+          </form>
+        </div>
+        <div class="col-12 col-lg-6 col-md-12 col-sm-12">
+          <h2>Get in Touch</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias fugiat debitis voluptatem eaque modi
+            sapiente iusto, amet ut! Aut neque expedita iure, sunt reprehenderit iusto est mollitia repellendus
+            doloribus dolorem!</p>
+          <br>
+          <div class="mb-3">
+            <i class="fa-solid fa-location-dot me-1 text-danger"></i><span>RZ-54 , G-BLOCK , SITA PURI PART-2 , NEW
+              DELHI-110045 </span> <br>
+          </div>
+          <div class="mb-3">
+            <i class="fa-regular fa-envelope  me-1 text-danger"></i> <span>vr854369@gmail.com</span>
+          </div>
+
+          <a href=""><i class="fa-brands fa-facebook fs-2   pt-3 px-2 text-danger"></i></a>
+          <a href=""><i class="fa-brands fa-instagram fs-2   pt-3 px-2 text-danger"></i></a>
+          <a href=""><i class="fa-brands fa-twitter fs-2   pt-3 px-2 text-danger"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin fs-2   pt-3 px-2 text-danger"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="/assets/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed("#element", {
+      strings: ["Web Developer.", "Web Designer."],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</html>
